@@ -15,7 +15,6 @@ const copyTextToClipboard = text => {
   document.execCommand('copy');
   copyFrom.blur();
   document.body.removeChild(copyFrom);
-  console.log(text);
 }
 
 const markmoji = {
