@@ -2,6 +2,9 @@
 
 :root {
   --grey: #eee;
+  --transition: 0.6s;
+  --horizontalPadding: 20px;
+  --verticalPadding: 10px;
 }
 
 * {
@@ -12,26 +15,26 @@ html, body {
   font-size: 14px;
 }
 body {
-  padding: 20px;
+  padding: var(--horizontalPadding);
 }
 
 .b-flex {
   width: 600px;
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: var(--verticalPadding);
 }
 
 .gitmoji-element {
   flex-basis: 50%;
   max-width: 50%;
-  transition: 0.6s;
+  transition: var(--transition);
   cursor: pointer;
 }
 
 .gitmoji-element:hover {
-  transition: 0.6s;
-  transform: translateX(20px) scale(1.1);
+  transition: var(--transition);
+  transform: translateX(15px) scale(1.15);
 }
 
 code {
@@ -46,11 +49,33 @@ input {
   padding: 5px;
   display: block;
 }
-.b-alert {
-  color: var(--grey);
-  padding: 10px;
-  border: 1px solid var(--grey);
+
+.b-error {
+  background-color: var(--grey);
+  padding: var(--verticalPadding);
   display: block;
-  width: 100%;
   text-align: left;
+}
+
+.b-alert {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: var(--transition);
+  visibility: hidden;
+  padding: var(--verticalPadding) var(--horizontalPadding);
+  font-size: 16px;
+}
+
+.is-show {
+  opacity: 1;
+  transition: var(--transition);
+  visibility: visible;
+}
+
+.is-success {
+  color: white;
+  background: #4CAF50;
 }
