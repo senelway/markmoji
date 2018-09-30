@@ -2,10 +2,10 @@
 
 # markmoji
 #### chrome extension for commit, readme, etc..
-![image 2018-10-01 02 24 00](https://user-images.githubusercontent.com/9702154/46264100-24652080-c521-11e8-998a-96c7a885e247.jpg)
+<img src="https://user-images.githubusercontent.com/9702154/46264159-f2a08980-c521-11e8-8419-0103ffa93205.jpg" width="600" />
 
 ## Install
-download the `dist` and upload to `chrome://extensions`
+download the `markmoji.zip` and upload to `chrome://extensions`
 
 ## License
 MIT
