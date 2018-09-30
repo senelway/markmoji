@@ -1,7 +1,7 @@
 @import 'normalize.css';
 
 :root {
-  --grey: #eee,
+  --grey: #eee;
 }
 
 * {
@@ -11,8 +11,12 @@
 html, body {
   font-size: 14px;
 }
+body {
+  padding: 20px;
+}
 
 .b-flex {
+  width: 600px;
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -27,7 +31,7 @@ html, body {
 
 .gitmoji-element:hover {
   transition: 0.6s;
-  transform: translateX(20px) scale(1.2);
+  transform: translateX(20px) scale(1.1);
 }
 
 code {
