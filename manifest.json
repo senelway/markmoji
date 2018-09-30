@@ -1,0 +1,11 @@
+{
+  "name": "markmoji",
+  "version": "1.0",
+  "description": "emoji for anything",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "./logo.png",
+    "default_popup": "./index.html"
+  },
+  "permissions": ["activeTab"]
+}

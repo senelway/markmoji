@@ -1,0 +1,52 @@
+@import 'normalize.css';
+
+:root {
+  --grey: #eee,
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 14px;
+}
+
+.b-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.gitmoji-element {
+  flex-basis: 50%;
+  max-width: 50%;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.gitmoji-element:hover {
+  transition: 0.6s;
+  transform: translateX(20px) scale(1.2);
+}
+
+code {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--grey);
+  font-family: monospace;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  display: block;
+}
+.b-alert {
+  color: var(--grey);
+  padding: 10px;
+  border: 1px solid var(--grey);
+  display: block;
+  width: 100%;
+  text-align: left;
+}
