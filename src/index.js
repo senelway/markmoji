@@ -39,7 +39,7 @@ const markmoji = {
   onFiltrate: data => {
     const keys = Object.keys(data);
     if (markmoji.search) {
-      return keys.filter(q => toLowerCase(q) === toLowerCase(markmoji.search))
+      return keys.filter(q => toLowerCase(q).search(toLowerCase(markmoji.search)) !== -1)
     }
     return keys;
   },
