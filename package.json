@@ -13,7 +13,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.11.0",
+    "parcel-bundler": "^1.12.0",
     "parcel-plugin-web-extension": "^1.5.1"
   }
 }
