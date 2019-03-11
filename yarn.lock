@@ -3417,10 +3417,10 @@ parcel-bundler@^1.9.0:
     v8-compile-cache "^2.0.0"
     ws "^5.1.1"
 
-parcel-plugin-web-extension@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-web-extension/-/parcel-plugin-web-extension-1.5.1.tgz#35cad2c163d4d5786be53ed152fbad11d41ce967"
-  integrity sha512-habuUoLqJZ2mdr5NMJemNf83U6oFtEkL091nhOLWWQgDQx0VxK+cbAxYuaQfydT8k4VmjaMIgjKI8NzJG7gyfw==
+parcel-plugin-web-extension@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-web-extension/-/parcel-plugin-web-extension-1.5.2.tgz#f2d694464aba2e4581b419af1a62ede3cd524068"
+  integrity sha512-qcxcEi6lA9+3sLA3TgMcfddTHrxIQXBhwdM12JxEEEhmxz4FIw9JqaOq+GNQQ2EHAiEQ6Amb7I+YE+NGOx9BXQ==
   dependencies:
     "@parcel/fs" "^1.11.0"
     fast-glob "^2.2.2"
